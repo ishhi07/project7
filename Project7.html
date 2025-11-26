@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Star Events</title>
+</head>
+<body>
+  <h1 align="center">🎉 STAR EVENTS 🎉</h1>
+  <p align="center"><i>We plan weddings, birthdays, and corporate events with care.</i></p>
+  <hr>
+
+  <div style="display:flex; gap:18px; align-items:flex-start;">
+    <div>
+      <img src="images\event.jpg" alt="Star Events" width="130">
+    </div>
+    <div>
+      <u><h2>Our Services</h2></u>
+      <p>Decorations, catering, music, stage setup, guest management, and photography.
+      We handle everything so you can enjoy your special day stress-free.</p>
+    </div>
+  </div>
+
+  <hr>
+  <h2>🗂 Event Types</h2>
+  <table border="1" cellpadding="8" cellspacing="0" align="center">
+    <tr><th>Type</th><th>Details</th><th>Starting Price</th></tr>
+    <tr><td>Wedding</td><td>Full planning, venue, decor, catering</td><td>₹75,000</td></tr>
+    <tr><td>Birthday</td><td>Themes, cake, music, games</td><td>₹10,000</td></tr>
+    <tr><td>Corporate</td><td>Seminars, team building, lunches</td><td>₹30,000</td></tr>
+  </table>
+
+  <hr>
+  <h2>📩 Book an Event (Mock)</h2>
+  <form onsubmit="alert('Event booking request received (mock). We will call you.'); return false;">
+    <table>
+      <tr><td>Contact Name:</td><td><input type="text" name="name" required></td></tr>
+      <tr><td>Phone:</td><td><input type="tel" name="phone" required></td></tr>
+      <tr><td>Event Type:</td><td>
+        <select name="etype">
+          <option>Wedding</option>
+          <option>Birthday</option>
+          <option>Corporate</option>
+        </select>
+      </td></tr>
+      <tr><td>Date:</td><td><input type="date" name="date" required></td></tr>
+      <tr><td>Guests:</td><td><input type="number" name="guests" min="1" value="50"></td></tr>
+      <tr><td colspan="2" align="center"><button type="submit">Send Request</button></td></tr>
+    </table>
+  </form>
+
+  <hr>
+  <h2>⭐ Customer Reviews</h2>
+  <table border="1" cellpadding="6">
+    <tr><td><b>Neha</b></td><td>⭐⭐⭐⭐⭐</td><td>Amazing decoration and smooth management!</td></tr>
+    <tr><td><b>Amit</b></td><td>⭐⭐⭐⭐</td><td>Good team, timely service.</td></tr>
+  </table>
+
+  <hr>
+  <h2>📞 Contact</h2>
+  <ul>
+    <li>Phone: 91234 56789</li>
+    <li>Email: starevents@gmail.com</li>
+    <li>Address: Celebration Road, Dream City</li>
+  </ul>
+
+  <p align="center">© 2025 Star Events</p>
+</body>
+</html>
